@@ -1,5 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
 body {
+  box-sizing: border-box;
   width: 100vw;
   min-height: 100vh;
+  height: 1px;
   font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Container */
+.container {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Main */
+.main {
+  flex-grow: 1;
+}
+
+.main .container {
+  display: flex;
+  padding: 40px 20px;
+}
+
+/* Section */
+.section {
+  display: flex;
+}
+.section .section__heading {
+  width: 200px;
+  margin-right: 40px;
+}
+.section .section__info {
+  flex-grow: 1;
+}
+
+/* Footer */
+.footer {
+  margin-top: auto;
 }
