@@ -28,7 +28,6 @@ body {
 }
 
 .main .container {
-  display: flex;
   padding: 40px 20px;
 }
 
@@ -39,6 +38,7 @@ body {
 .section .section__heading {
   width: 200px;
   margin-right: 40px;
+  flex-shrink: 0;
 }
 .section .section__info {
   flex-grow: 1;
