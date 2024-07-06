@@ -194,6 +194,7 @@ h4 {
 .footer__year {
   font-weight: 700;
   font-size: 14px;
+  align-self: center;
 }
 .footer__school {
   width: 80px;
