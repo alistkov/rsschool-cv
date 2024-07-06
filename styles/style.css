@@ -199,3 +199,74 @@ h4 {
 .footer__school {
   width: 80px;
 }
+
+@media screen and (max-width: 1023px) {
+  .about__image {
+    width: 200px;
+    height: 200px;
+  }
+  .about h1 {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  body {
+    font-size: 14px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  h4 {
+    font-size: 16px;
+  }
+
+  .section {
+    margin-bottom: 40px;
+  }
+  .section .section__heading {
+    margin-bottom: 20px;
+  }
+
+  .header {
+    display: none;
+  }
+
+  .about {
+    flex-direction: column-reverse;
+  }
+  .about h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  .about__image {
+    margin-bottom: 30px;
+  }
+  .about__links li {
+    width: 30px;
+    height: 30px;
+  }
+
+  .experience li {
+    padding-left: 20px;
+  }
+  .experience li::before {
+    width: 10px;
+    top: 10px;
+  }
+
+  .footer__wrapper {
+    flex-wrap: wrap;
+  }
+  .footer__year {
+    order: 1;
+    width: 100%;
+    margin-top: 14px;
+  }
+}
