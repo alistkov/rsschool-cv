@@ -55,7 +55,7 @@ h4 {
 
 /* Header */
 .header {
-  padding: 20px;
+  padding: 20px 0;
   border-bottom: 1px solid #272d2b;
 }
 .header nav ul {
@@ -91,11 +91,6 @@ h4 {
   padding-bottom: 10px;
   border-bottom: 2px solid #272d2b;
   margin-bottom: 25px;
-}
-
-/* Footer */
-.footer {
-  margin-top: auto;
 }
 
 /* About */
@@ -180,4 +175,26 @@ h4 {
 .courses a:visited {
   color: #4c7a9c;
   text-decoration: none;
+}
+
+/* Footer */
+.footer {
+  margin-top: auto;
+  padding: 20px 0;
+  border-top: 1px solid #272d2b;
+}
+.footer__wrapper {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.footer__github {
+  width: 50px;
+}
+.footer__year {
+  font-weight: 700;
+  font-size: 14px;
+}
+.footer__school {
+  width: 80px;
 }
