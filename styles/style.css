@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: inherit;
 }
-
 body {
   box-sizing: border-box;
   width: 100vw;
@@ -16,23 +15,34 @@ body {
   color: #ffffff;
   line-height: 1.6;
 }
-
 img {
   max-width: 100%;
   height: auto;
 }
-
 p {
   margin-bottom: 10px;
 }
-
 ul {
   list-style: none;
 }
-
+h2,
 h3,
 h4 {
   font-style: italic;
+}
+h2 {
+  font-weight: 500;
+  font-size: 24px;
+}
+h3 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+h4 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
 }
 
 /* Container */
@@ -74,9 +84,10 @@ h4 {
 .section {
   margin-bottom: 70px;
 }
+.section:nth-last-child(1) {
+  margin-bottom: 0;
+}
 .section .section__heading {
-  font-weight: 500;
-  font-size: 24px;
   padding-bottom: 10px;
   border-bottom: 2px solid #272d2b;
   margin-bottom: 25px;
@@ -145,16 +156,6 @@ h4 {
 .experience:nth-last-child(1) {
   border-bottom: none;
 }
-.experience h3 {
-  font-size: 20px;
-  font-weight: 500;
-  margin-bottom: 10px;
-}
-.experience h4 {
-  font-size: 18px;
-  font-weight: 500;
-  margin-bottom: 10px;
-}
 .experience li {
   margin-bottom: 10px;
   position: relative;
@@ -171,15 +172,10 @@ h4 {
   background: #ffffff;
 }
 
-/* Education */
-.education h3 {
-  font-size: 20px;
-  font-weight: 500;
-  margin-bottom: 10px;
-  font-style: italic;
-}
-
 /* Courses */
+.courses {
+  margin-bottom: 20px;
+}
 .courses a:link,
 .courses a:visited {
   color: #4c7a9c;
